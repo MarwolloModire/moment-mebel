@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /index.html
+Host: moment-mebel.ru
+Sitemap: https://moment-mebel.ru/sitemap.xml
