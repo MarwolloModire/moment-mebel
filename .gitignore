@@ -1,0 +1,17 @@
+.DS_Store
+.vscode
+__pycache__/
+*.py[cod]
+.env
+.log
+pip-log.txt
+pip-delete-this-directory.txt
+node_modules/
+npm-debug.log*
+bin/
+develop-eggs/
+eggs/
+*.egg-info/
+*.egg
+lib/
+lib64
