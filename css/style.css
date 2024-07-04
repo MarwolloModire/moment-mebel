@@ -15,6 +15,15 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Comic Sans MS';
+	src: local('Comic Sans MS'), local('ComicSansMS'),
+		url('ComicSansMS.woff2') format('woff2'),
+		url('ComicSansMS.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
 	scrollbar-color: #000000 #ffd014;
 	scroll-behavior: smooth;
