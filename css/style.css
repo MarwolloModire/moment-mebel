@@ -50,7 +50,6 @@ html {
 
 .logo-top {
 	padding-top: 5%;
-	margin-left: 10px;
 }
 
 .conteiner_m_1 {
@@ -205,14 +204,14 @@ html {
 	margin-right: 10px;
 	border-radius: 20px;
 	background-color: #ffd014;
+	color: #000000;
 	position: relative;
-	font-size: 24px;
-	font-family: PT Sans Narrow, sans-serif;
+	font-size: 18px;
+	font-family: Comic Sans MS, sans-serif;
 	font-weight: 700;
 	text-align: center;
 	align-content: center;
 	vertical-align: middle;
-	text-decoration: none;
 	opacity: 70%;
 	transition: 1s;
 	border-style: none;
@@ -307,11 +306,12 @@ button:hover {
 	display: block;
 	color: #ffffff;
 	cursor: pointer;
-	font-size: 28px;
-	font-family: sans-serif;
+	font-size: 24px;
+	font-family: Comic Sans MS, sans-serif;
 	font-weight: 700;
 	text-align: center;
 	letter-spacing: 3px;
+	text-decoration: none;
 }
 .contact_top:hover {
 	color: #ff0000;
@@ -337,11 +337,12 @@ button:hover {
 
 .osn_1 {
 	position: relative;
-	font-size: 44px;
-	font-family: PT Sans Narrow, sans-serif;
-	font-weight: 700;
+	font-size: 38px;
+	font-family: Comic Sans MS, sans-serif;
+	font-weight: 400;
 	color: #c8c6c8;
 	text-align: center;
+	line-height: 2rem;
 	z-index: 10;
 }
 
@@ -1154,10 +1155,13 @@ footer {
 
 	@media screen and (max-device-width: 1094px) {
 		.osn_1 {
-			font-size: 36px;
+			font-size: 30px;
+		}
+		.osn_2 {
+			font-size: 20px;
 		}
 		.button_recall {
-			font-size: 22px;
+			font-size: 16px;
 		}
 		.popup_body {
 			left: 850px;
@@ -1184,11 +1188,11 @@ footer {
 
 	@media screen and (max-device-width: 960px) {
 		.button_recall {
-			font-size: 18px;
+			font-size: 16px;
 			height: 50px;
 		}
 		.contact_top {
-			font-size: 28px;
+			font-size: 24px;
 		}
 		.h3_m {
 			width: 100%;
@@ -1231,6 +1235,13 @@ footer {
 			margin-left: 1%;
 			width: 97%;
 		}
+		.osn_1 {
+			font-size: 26px;
+		}
+		.osn_2 {
+			font-size: 20px;
+			font-weight: 400;
+		}
 	}
 
 	@media screen and (max-device-width: 790px) {
@@ -1261,12 +1272,16 @@ footer {
 		.rights {
 			font-size: 10px;
 		}
+		.button_recall {
+			font-size: 14px;
+		}
 	}
 
 	@media screen and (max-device-width: 690px) {
 		.logo-top {
 			width: 200px;
 			height: auto;
+			margin-left: 10px;
 		}
 		.h2_m {
 			display: none;
@@ -1374,6 +1389,12 @@ footer {
 		.review {
 			width: 45%;
 		}
+		.contact_top {
+			font-size: 24px;
+		}
+		.button_recall {
+			font-size: 12px;
+		}
 	}
 
 	@media screen and (max-device-width: 550px) {
@@ -1439,6 +1460,10 @@ footer {
 		.basement_logo {
 			transform: scale(0.8);
 		}
+		.contact_top {
+			font-size: 22px;
+			padding-right: 10px;
+		}
 	}
 
 	@media screen and (max-device-width: 450px) {
@@ -1447,24 +1472,27 @@ footer {
 			height: auto;
 		}
 		.conteiner_m_3 {
-			top: 170px;
+			top: 200px;
 			min-width: 200px;
-			padding: 0 20px 0 20px;
+			padding: 0 40px 0 40px;
 			left: 50%;
 		}
 		.osn_1 {
-			font-size: 26px;
+			font-size: 22px;
+			width: 270px;
+			margin-left: 50%;
+			transform: translateX(-50%);
 		}
 		.osn_2 {
-			font-size: 18px;
+			font-size: 16px;
 		}
 		.button_recall {
-			font-size: 16px;
+			font-size: 10px;
 			margin-top: 15px;
-			padding: 10px 10px 10px 10px;
+			padding: 0 10px 0 10px;
 		}
 		.contact_top {
-			font-size: 24px;
+			font-size: 18px;
 		}
 		.popup_link {
 			right: 35px;
