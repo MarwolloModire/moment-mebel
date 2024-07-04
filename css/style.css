@@ -347,7 +347,7 @@ button:hover {
 .osn_1 {
 	position: relative;
 	font-size: 38px;
-	font-family: Comic Sans MS, sans-serif;
+	font-family: Comic sans MS, serif;
 	font-weight: 400;
 	color: #c8c6c8;
 	text-align: center;
@@ -1246,6 +1246,7 @@ footer {
 		}
 		.osn_1 {
 			font-size: 26px;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 		}
 		.osn_2 {
 			font-size: 20px;
@@ -1403,6 +1404,7 @@ footer {
 		}
 		.button_recall {
 			font-size: 12px;
+			font-family: 'Times New Roman', Times, serif;
 		}
 	}
 
